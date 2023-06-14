@@ -1,0 +1,14 @@
+.studentNames{
+    border: 1px solid #ef6e47;
+    border-top: 0px;
+    background: linear-gradient(90deg, #0d0f4af4 0%, rgba(239, 110, 71, 0.788) 100%);
+    color: white;
+}
+
+.appointments{
+    border: 1px solid #ef6e47;
+    border-top: 0px;
+    background-color: #E0EAF8;
+    height: 90px;
+    overflow-block: hidden;
+}

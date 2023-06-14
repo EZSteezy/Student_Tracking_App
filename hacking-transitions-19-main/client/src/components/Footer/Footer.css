@@ -1,0 +1,29 @@
+.footermenu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #E0EAF8;
+  border-top: 1px solid #ccc;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+  
+.menuitems {
+  margin-right: 60px;
+}
+
+.footermenu li:last-child {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.footermenu li a {
+  font-size: 17px;
+  text-decoration: none;
+}

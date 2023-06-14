@@ -1,0 +1,95 @@
+.Appointments{
+    position: relative;
+    text-align: center;
+    width: 20%;
+    left: 79.85%;
+    margin-top: -7.6%;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(239,110,71,0.62);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(239,110,71,0.62);
+    box-shadow: 0px 0px 24px 0px rgba(239,110,71,0.62);
+    animation: fadeIn .5s ease-in both;
+    z-index: 0;
+    border: transparent;
+    bottom: 75px;
+}
+
+.appointments{
+    border: 1px;
+}
+
+
+.RemindersHeader{
+    border: 1px solid #ef6e47;
+    font-size: 35px;
+    font-family: Times;
+    background-color: #0d0f4af4;
+    color: white;
+}
+
+.StudentNames{
+    font-family: Times;
+    font-size: 20px;
+    letter-spacing: .5px;
+    border: 1px;
+    word-spacing: 1px;
+}
+
+.buttons{
+    border: solid #ef6e47;
+    border-top: 0;
+    border: 1px;
+}
+
+button{
+    display: inline-block;
+    background-color: transparent;
+    width: 33.3%;
+    border: 0;
+    border-left: #0d0f4af4 solid;
+}
+
+button:hover{
+    background-color: #ef6e47c9;
+    color: white;
+    cursor: pointer;
+}
+p{
+    color: red
+}
+
+.Form{
+    width: 100%;
+    position: relative;
+    left: 0px;
+    /* border: solid black; */
+}
+
+.addButton{
+    border-left: 0;
+}
+
+.addSubmit{
+    border: black solid 1px;
+
+}
+
+.addCancel{
+    border: black solid 1px;
+
+}
+
+label {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(-10, -10%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}

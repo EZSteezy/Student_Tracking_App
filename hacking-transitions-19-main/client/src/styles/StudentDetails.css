@@ -1,0 +1,48 @@
+.student-table {
+    cursor: default;
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%, -0%);
+    font-size: 35px;
+    border: 1px solid #EF6E47;
+    color: #FFFFFF;
+    width: 50%;
+    height: 50%;
+    height: fit-content;
+}
+
+.column1 {
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #0D0F4A;
+}
+.column2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #4E70E0;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
+.circle-student{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    float: right;
+    border: 3px solid#0D0F4A;
+}
+.exit{
+    float: right;
+    color:#FFFFFF;
+}
+.exit:hover{
+    color:#0D0F4A;
+}
